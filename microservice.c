@@ -28,7 +28,7 @@ int main(){
             scanf("%s", &token);
             fprintf(writefile, "%s", token);
             fclose(writefile);
-            printf("Resetting...");
+            printf("Resetting...\n");
             result = 1;
             strcpy(isGo, "");
         }
